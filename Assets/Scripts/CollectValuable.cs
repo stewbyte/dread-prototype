@@ -1,10 +1,11 @@
 using UnityEngine;
 
 public class pickup : MonoBehaviour
+
 {
     [SerializeField] AudioClip sound;
 
-    AudioSource audioSource;
+    [SerializeField] AudioSource audioSource; 
 
     private void OnTriggerEnter(Collider other)
     {
